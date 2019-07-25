@@ -1,19 +1,30 @@
 header {
+ grid area: header;
  background-color: #66B477;
+}
+ main {
+  display: grid;
+  grid-template-areas:
+   'aside article article'
+   'aside footer footer';
+  grid-gap: 30px;
  
 }
 
 aside {
+ grid-area: aside;
  background-color: #6DB3BC;
  
 }
 
 article {
+ grid-area: article;
  background-color: #ffffff;
  
 }
 
 footer {
+ grid-area: footer;
  background-color: #6DB3BC;
  
 }
