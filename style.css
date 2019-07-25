@@ -1,7 +1,11 @@
 header {
  grid area: header;
  background-color: #66B477;
+ background-image: url('')
+ background-size; cover;
+ background-attatchment: fixed;
 }
+
  main {
   display: grid;
   grid-template-areas:
